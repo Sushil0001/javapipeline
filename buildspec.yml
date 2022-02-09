@@ -5,9 +5,9 @@ phases:
       java: corretto11
   pre_build:
     commands:
-      - cd src/main/resources/static
-      - npm install bower -g
-      - bower install --allow-root
+      # - cd src/main/resources/static
+      # - npm install bower -g
+      # - bower install --allow-root
       - pwd
       - ls -lrta
       - cd $CODEBUILD_SRC_DIR
